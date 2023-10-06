@@ -24,8 +24,17 @@ body{
 }
 .board{
     margin-top: 5px;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     display: grid;
     border: 1px solid rgb(101, 167, 115);
+}#btn-popup{
+  
+    outline: 2px solid black;
+    outline-offset: -5px;
+    transition: 0.3s;
+
+}
+#btn-popup:hover{
+    outline-offset: 3px;
 }
